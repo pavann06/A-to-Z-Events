@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #65B530;
+    --primary: gold;
     --secondary: #9B9B9B;
-    --light: #F5F5F5;
+    --light: #191919;
     --dark: #161616;
 }
 
@@ -140,7 +140,7 @@
 }
 
 .navbar .btn:hover {
-    color: #FFFFFF !important;
+    color: #191919 !important;
     background: var(--primary) !important;
 }
 
@@ -200,7 +200,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: #191919;
     background: transparent;
     border: 1px solid #FFFFFF;
     border-radius: 45px;
@@ -232,7 +232,7 @@
     width: 15px;
     height: 15px;
     background: transparent;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #191919;
     border-radius: 15px;
     transition: .5s;
 }
@@ -244,7 +244,7 @@
     height: 5px;
     top: 4px;
     left: 4px;
-    background: #FFFFFF;
+    background: #191919;
     border-radius: 5px;
 }
 
@@ -301,7 +301,7 @@
     height: 38px;
     display: inline-flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #191919;
     background: var(--primary);
     border-radius: 38px;
     white-space: nowrap;
@@ -494,7 +494,7 @@
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: var(--primary);
-    background: #FFFFFF;
+    background: #191919;
     border-radius: 40px;
     transition: .5s;
     opacity: 0;
@@ -563,4 +563,8 @@
     color: var(--primary);
     letter-spacing: 1px;
     box-shadow: none;
+}
+
+body{
+    background-color: #191919 !important;
 }
