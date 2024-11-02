@@ -69,6 +69,22 @@
         background-color: #0056b3;
       }
     </style>
+
+<style>
+  
+
+  .card-padding {
+    padding: 2rem; /* Adjusts padding around each card */
+  }
+  .gold-line {
+    border: none;
+    border-top: 2px solid gold;
+    margin: 1.5rem 0; /* Adjusts spacing around the line */
+    width: 80%; /* Adjusts the width of the line */
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
   </head>
 
   <body>
@@ -88,7 +104,7 @@
     <!-- Spinner End -->
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5">
+    <div class="container-fluid bg-dark px-5 ">
       <div class="row gx-4 d-none d-lg-flex">
         <div class="col-lg-6 text-start">
           <div class="h-100 d-inline-flex align-items-center py-3 me-4">
@@ -124,19 +140,19 @@
 
     <!-- Navbar Start -->
     <nav
-      class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5"
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5 "
     >
       <a href="index.html" class="navbar-brand d-flex align-items-center">
         <h2 class="m-0 text-primary">AtoZEvents & Productions </h2>
       </a>
       <button
-        type="button"
-        class="navbar-toggler"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarCollapse"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      type="button"
+      class="navbar-toggler ms-auto"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse"
+    >
+      <span class="navbar-toggler-icon toggler-icon-white"></span>
+    </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-4 py-lg-0">
           <a href="index.html" class="nav-item nav-link active">Home</a>
@@ -293,7 +309,7 @@
                 >
                   <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon" />
                 </div>
-                <h1 class="display-1 mb-0" style="color: #000000">01</h1>
+                <h1 class="display-1 mb-0" style="color: #fff">01</h1>
               </div>
               <h5 class="text-white">Home Security</h5>
               <hr class="w-25" />
@@ -314,7 +330,7 @@
                 >
                   <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon" />
                 </div>
-                <h1 class="display-1 mb-0" style="color: #000000">02</h1>
+                <h1 class="display-1 mb-0" style="color: #fff">02</h1>
               </div>
               <h5 class="text-white">Access Control</h5>
               <hr class="w-25" />
@@ -335,7 +351,7 @@
                 >
                   <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon" />
                 </div>
-                <h1 class="display-1 mb-0" style="color: #000000">03</h1>
+                <h1 class="display-1 mb-0" style="color: #fff">03</h1>
               </div>
               <h5 class="text-white">24/7 Support</h5>
               <hr class="w-25" />
@@ -351,7 +367,7 @@
     <!-- Facts Start -->
 
     <!-- About Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container-fluid bg-dark overflow-hidden my-5 px-lg-0">
       <div class="container about px-lg-0">
         <div class="row g-0 mx-lg-0">
           <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
@@ -373,7 +389,7 @@
                 class="bg-primary mb-3"
                 style="width: 60px; height: 2px"
               ></div>
-              <h1 class="display-5 mb-4">About Us</h1>
+              <h1 class="display-5 mb-4" style="color: #fff;">About Us</h1>
               <p class="mb-4 pb-2">
                 Welcome to A TO Z Events, where every event is a story waiting
                 to be told! Based on a passion for detail, creativity, and
@@ -438,7 +454,7 @@
     <!-- About End -->
 
     <!-- Clients Section -->
-    <section id="clients" class="clients section light-background">
+    <section id="clients" class="clients section light-background bg-dark">
       <div class="container">
         <div class="swiper init-swiper">
           <script type="application/json" class="swiper-config">
@@ -552,138 +568,121 @@
     </section>
     <!-- /Clients Section -->
 
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-      <div class="container">
-        <div class="text-center">
-          <div
-            class="bg-primary mb-3 mx-auto"
-            style="width: 60px; height: 2px"
-          ></div>
-          <h1 class="display-5 mb-5">Our Services</h1>
+
+<!-- Service Start -->
+<div class="container-xxl py-5">
+  <div class="container">
+    <div class="text-center">
+      <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px"></div>
+      <h1 class="display-5 mb-5" style="color: #fff;">Our Services</h1>
+    </div>
+    <div class="row g-4 service-row">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+        <div class="service-item border card-padding" style="background-color: #212529;">
+          <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px">
+            <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon" />
+          </div>
+          <h4 class="mb-3" style="color: #fff;">Wedding services</h4>
+          <p class="mb-4">
+            Our team works on every detail ranging from venue selection and
+            decoration and catering to entertainment for it to be a flawless
+            journey.
+          </p>
+          <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
         </div>
-        <div class="row g-0 service-row">
-          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-            <div class="service-item border h-100 p-5">
-              <div
-                class="btn-square bg-light rounded-circle mb-4"
-                style="width: 64px; height: 64px"
-              >
-                <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon" />
-              </div>
-              <h4 class="mb-3">Wedding services</h4>
-              <p class="mb-4">
-                Our team works on every detail ranging from venue selection and
-                decoration and catering to entertainment for it to be a flawless
-                journey.
-              </p>
-              <a class="btn" href=""
-                ><i class="fa fa-arrow-right text-white me-3"></i>Read More</a
-              >
-            </div>
+       
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+        <div class="service-item border card-padding" style="background-color: #212529;">
+          <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px">
+            <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon" />
           </div>
-          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-            <div class="service-item border h-100 p-5">
-              <div
-                class="btn-square bg-light rounded-circle mb-4"
-                style="width: 64px; height: 64px"
-              >
-                <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon" />
-              </div>
-              <h4 class="mb-3">CORPORATE EVENTS</h4>
-              <p class="mb-4">
-                From a product launch to a team-building retreat, award
-                ceremony, or annual conference, our team will make it an
-                impactful experience expressing the values
-              </p>
-              <a class="btn" href=""
-                ><i class="fa fa-arrow-right text-white me-3"></i>Read More</a
-              >
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-            <div class="service-item border h-100 p-5">
-              <div
-                class="btn-square bg-light rounded-circle mb-4"
-                style="width: 64px; height: 64px"
-              >
-                <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon" />
-              </div>
-              <h4 class="mb-3">POLITICAL EVENTS</h4>
-              <p class="mb-4">
-                With event planning, logistics, and crowd management expertise
-                under our belt, we are quite ready to support the purpose of
-                your campaign or political initiative.
-              </p>
-              <a class="btn" href=""
-                ><i class="fa fa-arrow-right text-white me-3"></i>Read More</a
-              >
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.7s">
-            <div class="service-item border h-100 p-5">
-              <div
-                class="btn-square bg-light rounded-circle mb-4"
-                style="width: 64px; height: 64px"
-              >
-                <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon" />
-              </div>
-              <h4 class="mb-3">COLLEGE EVENTS</h4>
-              <p class="mb-4">
-                Our team works with the organizers of the students and
-                committees of the college to develop events that are well liked
-                by the students.
-              </p>
-              <a class="btn" href=""
-                ><i class="fa fa-arrow-right text-white me-3"></i>Read More</a
-              >
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.7s">
-            <div class="service-item border h-100 p-5">
-              <div
-                class="btn-square bg-light rounded-circle mb-4"
-                style="width: 64px; height: 64px"
-              >
-                <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon" />
-              </div>
-              <h4 class="mb-3">BIRTHDAY PARTIES</h4>
-              <p class="mb-4">
-                From colorful children’s parties to elegant adult's parties, we
-                plan and organize kids and adult parties that make the fantasies
-                a reality.
-              </p>
-              <a class="btn" href=""
-                ><i class="fa fa-arrow-right text-white me-3"></i>Read More</a
-              >
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.7s">
-            <div class="service-item border h-100 p-5">
-              <div
-                class="btn-square bg-light rounded-circle mb-4"
-                style="width: 64px; height: 64px"
-              >
-                <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon" />
-              </div>
-              <h4 class="mb-3">CATTERING SERVICES</h4>
-              <p class="mb-4">
-                . Whether you're planning a wedding reception, a corporate
-                gathering, or family celebration, our skilled chefs and catering
-                professionals will craft menu
-              </p>
-              <a class="btn" href=""
-                ><i class="fa fa-arrow-right text-white me-3"></i>Read More</a
-              >
-            </div>
-          </div>
+          <h4 class="mb-3" style="color: #fff;">Corporate Events</h4>
+          <p class="mb-4">
+            From a product launch to a team-building retreat, award
+            ceremony, or annual conference, our team will make it an
+            impactful experience expressing the values.
+          </p>
+          <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
         </div>
+
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+        <div class="service-item border card-padding" style="background-color: #212529;">
+          <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px">
+            <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon" />
+          </div>
+          <h4 class="mb-3" style="color: #fff;">Political Events</h4>
+          <p class="mb-4">
+            With event planning, logistics, and crowd management expertise
+            under our belt, we are quite ready to support the purpose of
+            your campaign or political initiative.
+          </p>
+          <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+        </div>
+    
+      </div>
+      <!-- Card 4 -->
+      <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+        <div class="service-item border card-padding" style="background-color: #212529;">
+          <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px">
+            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon" />
+          </div>
+          <h4 class="mb-3" style="color: #fff;">College Events</h4>
+          <p class="mb-4">
+            Our team works with the organizers of the students and
+            committees of the college to develop events that are well liked
+            by the students.
+          </p>
+          <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+        </div>
+      
+      </div>
+      <!-- Card 5 -->
+      <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.9s">
+        <div class="service-item border card-padding" style="background-color: #212529;">
+          <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px">
+            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon" />
+          </div>
+          <h4 class="mb-3" style="color: #fff;">Birthday Parties</h4>
+          <p class="mb-4">
+            From colorful children’s parties to elegant adult's parties, we
+            plan and organize kids and adult parties that make the fantasies
+            a reality.
+          </p>
+          <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+        </div>
+     
+      </div>
+      <!-- Card 6 -->
+      <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="1.1s">
+        <div class="service-item border card-padding" style="background-color: #212529;">
+          <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px">
+            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon" />
+          </div>
+          <h4 class="mb-3" style="color: #fff;">Catering Services</h4>
+          <p class="mb-4">
+            Whether you're planning a wedding reception, a corporate
+            gathering, or family celebration, our skilled chefs and catering
+            professionals will craft a custom menu.
+          </p>
+          <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+        </div>
+       
       </div>
     </div>
-    <!-- Service End -->
+  </div>
+</div>
+<!-- Service End -->
+
+
+
 
     <!-- Feature Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container-fluid bg-dark overflow-hidden my-5 px-lg-0">
       <div class="container feature px-lg-0">
         <div class="row g-0 mx-lg-0">
           <div
@@ -695,7 +694,7 @@
                 class="bg-primary mb-3"
                 style="width: 60px; height: 2px"
               ></div>
-              <h1 class="display-5 mb-5">Why Choose Us</h1>
+              <h1 class="display-5 mb-5" style="color: #fff;">Why Choose Us</h1>
               <p class="mb-4 pb-2">
                 Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
                 Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
@@ -800,9 +799,9 @@
             class="bg-primary mb-3 mx-auto"
             style="width: 60px; height: 2px"
           ></div>
-          <h1 class="display-5 mb-5">Our Projects</h1>
+          <h1 class="display-5 mb-5" style="color: #fff;">Our Projects</h1>
         </div>
-        <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+        <!-- <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
           <div class="col-12 text-center">
             <ul class="list-inline mb-5" id="portfolio-flters">
               <li class="mx-2 active" data-filter="*">All</li>
@@ -810,7 +809,7 @@
               <li class="mx-2" data-filter=".second">Ongoing Projects</li>
             </ul>
           </div>
-        </div>
+        </div> -->
         <div class="row g-4 portfolio-container">
           <div
             class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"
@@ -1016,7 +1015,7 @@
     <!-- Projects End -->
 
     <!-- Quote Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container-fluid bg-dark overflow-hidden my-5 px-lg-0" id="quote">
       <div class="container quote px-lg-0">
         <div class="row g-0 mx-lg-0">
           <div class="col-lg-6 ps-lg-0" style="min-height: 400px">
@@ -1038,7 +1037,7 @@
                 class="bg-primary mb-3"
                 style="width: 60px; height: 2px"
               ></div>
-              <h1 class="display-5 mb-5">Free Quote</h1>
+              <h1 class="display-5 mb-5" style="color: #fff;">Free Quote</h1>
               <p class="mb-4 pb-2">
                 Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
                 Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,

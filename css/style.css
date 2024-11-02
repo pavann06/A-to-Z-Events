@@ -3,7 +3,7 @@
     --primary: gold;
     --secondary: #9B9B9B;
     --light: #191919;
-    --dark: #161616;
+    --dark: #fff;
 }
 
 .fw-medium {
@@ -567,4 +567,9 @@
 
 body{
     background-color: #191919 !important;
+}
+
+#quote{
+    margin-top: 10rem !important;
+
 }
