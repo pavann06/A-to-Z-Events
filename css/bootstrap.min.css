@@ -2549,12 +2549,12 @@ fieldset:disabled .btn {
 }
 .btn-primary {
   color: #000;
-  background-color: gold ;
-  border-color: gold ;
+  background-color: #FCE677  ;
+  border-color: #FCE677  ;
 }
 .btn-primary:hover {
   color: #000;
-  background-color: #FCE677 ;
+  background-color: #FCE677  ;
   border-color: gold;
 }
 .btn-check:focus + .btn-primary,
@@ -3574,7 +3574,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: gold;
+  color: #FCE677 ;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
 }
@@ -3631,7 +3631,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: gold;
+  background-color: #FCE677 ;
 }
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
@@ -6783,7 +6783,7 @@ fieldset:disabled .btn {
   word-break: break-word !important;
 }
 .text-primary {
-  color: gold !important;
+  color: #FCE677  !important;
 }
 .text-secondary {
   color: #9b9b9b !important;
@@ -6825,7 +6825,7 @@ fieldset:disabled .btn {
   color: inherit !important;
 }
 .bg-primary {
-  background-color: gold !important;
+  background-color: #FCE677  !important;
 }
 .bg-secondary {
   background-color: #9b9b9b !important;
